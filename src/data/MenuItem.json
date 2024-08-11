@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Beden Dili"
+  },
+  {
+    "id": 1,
+    "name": "Kadın Erkek İlişkisi"
+  },
+  {
+    "id": 2,
+    "name": "Yalan Yakalama"
+  },
+  {
+    "id": 3,
+    "name": "İkna Teknikleri"
+  },
+  {
+    "id": 4,
+    "name": "Manipülasyon"
+  },
+  {
+    "id": 5,
+    "name": "Stres Yönetimi"
+  },
+  {
+    "id": 6,
+    "name": "Anksiyete"
+  },
+  {
+    "id": 7,
+    "name": "Özgüven"
+  },
+  {
+    "id": 8,
+    "name": "Uyku Sağlığı"
+  },
+  {
+    "id": 9,
+    "name": "Öfke Yönetimi"
+  }
+]
