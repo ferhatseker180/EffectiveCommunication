@@ -28,18 +28,10 @@ export default StyleSheet.create({
   },
   text: {
     fontSize: cardWidth * 0.1, // Dinamik font boyutu
-    color: '#000000',
-    fontFamily: 'Oswald-Bold',
+    color: '000',
+    fontFamily: 'AnekDevanagari_Expanded-ExtraBold',
   },
 
-  header: {
-    fontSize: 20, // Başlık font boyutu
-    fontWeight: 'bold',
-    color: '#000',
-    borderBottomColor: '#ddd', // Alt çizgi rengi
-    textAlign: 'center', // Ortalanmış metin
-    marginTop: 10,
-    marginBottom: 10, // Başlık ve liste arasında boşluk
-  },
+  
 
 });

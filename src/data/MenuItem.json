@@ -13,11 +13,11 @@
   },
   {
     "id": 3,
-    "name": "İkna Teknikleri"
+    "name": "Manipülasyon"
   },
   {
     "id": 4,
-    "name": "Manipülasyon"
+    "name": "Öfke Yönetimi"
   },
   {
     "id": 5,
@@ -25,7 +25,7 @@
   },
   {
     "id": 6,
-    "name": "Anksiyete"
+    "name": "İkna Teknikleri"
   },
   {
     "id": 7,
@@ -37,6 +37,7 @@
   },
   {
     "id": 9,
-    "name": "Öfke Yönetimi"
+    "name": "Anksiyete"
   }
+  
 ]

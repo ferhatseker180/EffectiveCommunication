@@ -1,4 +1,4 @@
-import { View, Text, Image, TouchableOpacity, Button } from 'react-native'
+import { View, Text, Image, TouchableOpacity} from 'react-native'
 import React, { useState } from 'react'
 import styles from './MainMenuStyle';
 
@@ -6,10 +6,11 @@ interface MainMenuCardProps {
   name: string;
   imageSource: any;
   backgroundColor: string; // Arka plan rengi
+  titleColor: string; // Text rengi
   onPress: () => void;
 }
 
-const MainMenuCard = ({name, imageSource, backgroundColor, onPress}: MainMenuCardProps) => {
+const MainMenuCard = ({name, imageSource, backgroundColor, titleColor, onPress}: MainMenuCardProps) => {
   const [imageError, setImageError] = useState(false);
   const handleImageError = () => {
     setImageError(true);
@@ -26,8 +27,7 @@ const MainMenuCard = ({name, imageSource, backgroundColor, onPress}: MainMenuCar
       />
       </TouchableOpacity>
       
-      <Text style={styles.text}>{name}</Text>
-    </View>
+      <Text style={[styles.text, { color: titleColor }]}>{name}</Text>    </View>
   )
 }
 

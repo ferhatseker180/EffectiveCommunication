@@ -8,9 +8,9 @@ const getImageForItem = (name : string) => {
     case 'Beden Dili':
       return require('../../data/images/body-language.png');
     case 'Kadın Erkek İlişkisi':
-      return require('../../data/images/woman-man.png');
+      return require('../../data/images/couple.png');
     case 'Yalan Yakalama':
-      return require('../../data/images/lying.png');
+      return require('../../data/images/mask.png');
     case 'İkna Teknikleri':
       return require('../../data/images/persuasive.png');
     case 'Manipülasyon':
@@ -27,42 +27,71 @@ const getImageForItem = (name : string) => {
       return require('../../data/images/fury.png');
       default:
         console.warn(`Image for ${name} not found.`);
-        return require('../../data/images/anxiety.png');
+        return require('../../data/images/no-camera.png');
   }
 };
 
 const getBackgroundColorForItem = (name: string) => {
   switch (name) {
     case 'Beden Dili':
-      return '#f7e7ce';
+      return '#fffaf0';
     case 'Kadın Erkek İlişkisi':
-      return '#f8d7da';
+      return '#ffc0cb';
     case 'Yalan Yakalama':
       return '#d0ebff';
     case 'İkna Teknikleri':
-      return '#ffcccb';
+      return '#00bfff';
     case 'Manipülasyon':
       return '#fff5ba';
     case 'Stres Yönetimi':
-      return '#d9f7be';
+      return '#40e0d0';
     case 'Anksiyete':
-      return '#ffdab9';
+      return '#c0c0c0';
     case 'Özgüven':
-      return '#f0e6f6';
+      return '#ffd700';
     case 'Uyku Sağlığı':
-      return '#f4f4f9';
+      return '#000080';
     case 'Öfke Yönetimi':
-      return '#fbe9e7';
+      return '#ffa500';
     default:
       return '#fff8dc';
   }
 };
+
+const getTextColorForItem = (name: string) => {
+  switch (name) {
+    case 'Beden Dili':
+      return "#000";
+    case 'Kadın Erkek İlişkisi':
+      return '#000';
+    case 'Yalan Yakalama':
+      return '#000';
+    case 'İkna Teknikleri':
+      return '#000';
+    case 'Manipülasyon':
+      return '#000';
+    case 'Stres Yönetimi':
+      return '#000';
+    case 'Anksiyete':
+      return '#000';
+    case 'Özgüven':
+      return '#000';
+    case 'Uyku Sağlığı':
+      return '#fff';
+    case 'Öfke Yönetimi':
+      return '#000';
+    default:
+      return '#000';
+  }
+};
+
 const MainMenuScreen = ({navigation} : any) => {
   const renderMenuItem = ({item} : any) => (
     <MainMenuCard
       name={item.name}
       imageSource={getImageForItem(item.name)}
       backgroundColor={getBackgroundColorForItem(item.name)}
+      titleColor={getTextColorForItem(item.name)} // titleColor prop'u ekleniyor
       onPress={() => {
         console.log("Navigating to OpeningScreen with:", item.name);
         navigation.navigate('OpeningScreen', { menuItem: item.name });
