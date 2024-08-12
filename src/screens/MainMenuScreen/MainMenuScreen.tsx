@@ -93,8 +93,8 @@ const MainMenuScreen = ({navigation} : any) => {
       backgroundColor={getBackgroundColorForItem(item.name)}
       titleColor={getTextColorForItem(item.name)} // titleColor prop'u ekleniyor
       onPress={() => {
-        console.log("Navigating to OpeningScreen with:", item.name);
-        navigation.navigate('OpeningScreen', { menuItem: item.name });
+        console.log("Navigating to Content Menu Screen with:", item.name);
+        navigation.navigate('ContentMenuScreen', { contentMenuItem: item.name });
       }}
     />
   );

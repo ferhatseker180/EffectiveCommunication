@@ -27,7 +27,8 @@ const MainMenuCard = ({name, imageSource, backgroundColor, titleColor, onPress}:
       />
       </TouchableOpacity>
       
-      <Text style={[styles.text, { color: titleColor }]}>{name}</Text>    </View>
+      <Text style={[styles.text, { color: titleColor }]}>{name}</Text> 
+      </View>
   )
 }
 
