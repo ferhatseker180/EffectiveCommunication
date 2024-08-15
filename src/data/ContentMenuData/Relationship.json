@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 0,
+        "title":"Günümüz İlişki Dünyasındaki Yeni Kavramlar: Love Bombing, Ghosting, Gaslighting",
+        "imageSource" : "love-bombing.jpg"
+    },
+    {
+        "id" : 1,
+        "title":"İlişkilerde Üçüncü Kişi Sorunsalı",
+        "imageSource" : "cheating.jpg"
+    },
+    {
+        "id" : 2,
+        "title":"Çiftler Arası İletişimde En Çok Karşılaşılan Sorunlar",
+        "imageSource" : "relationship-problem.jpg"
+    },
+    {
+        "id" : 3,
+        "title":"Uzun İlişkinin Sırları",
+        "imageSource" : "long-relationship.jpg"
+    },
+    {
+        "id" : 4,
+        "title":"Karşı Cinsin Sizden Hoşlandığını Gösteren İşaretler",
+        "imageSource" : "signal-of-love.jpg"
+    }
+]

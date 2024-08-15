@@ -22,7 +22,7 @@ const MainMenuCard = ({name, imageSource, backgroundColor, titleColor, onPress}:
       <TouchableOpacity onPress={onPress}> 
       <Image
         style={styles.image}
-        source={imageSource || require('../../../data/images/anxiety.png')} // Görsel dosya yolu
+        source={imageSource || require('../../../images/MainMenuIcon/stress.png')} // Görsel dosya yolu
         onError={handleImageError}
       />
       </TouchableOpacity>

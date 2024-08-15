@@ -1,6 +1,5 @@
-import { View, TouchableOpacity, Image } from 'react-native';
+import { View } from 'react-native';
 import React, { useState } from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
 import styles from './ContentMenuCardStyle';
 import { Avatar, Button, Card, Text } from 'react-native-paper';
 
@@ -17,16 +16,21 @@ const ContentMenuCard = ({title, contentImageSource, onPress}: ContentMenuCardPr
     setImageError(true);
   };
 
+  const maxLength = 100; // Gösterilecek maksimum karakter sayısı
+  const truncatedTitle = title.length > maxLength ? title.substring(0, maxLength) + '...' : title;
+
   return (
     <Card style={styles.card}>
       <View style={styles.cardContent}>
+      <View style={styles.imageContainer}>
         <Card.Cover 
           style={styles.content_image} 
           source={contentImageSource} 
           onError={handleImageError}
         />
+        </View>
         <View style={styles.textContainer}>
-          <Text style={styles.cardTitle}>{title} </Text>
+          <Text style={styles.cardTitle}>{truncatedTitle} </Text>
         </View>
       </View>
       <Card.Actions>

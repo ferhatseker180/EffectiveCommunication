@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 0,
+        "title":"Beden Dili: Sessiz İletişimin Gücü ve Etkileri",
+        "imageSource" : "facial-expressions.jpg"
+    },
+    {
+        "id" : 1,
+        "title":"Karşınızdaki Kişinin Sizden Şüphe Ettiğini Gösteren Gizli İşaretler",
+        "imageSource" : "doubt.jpg"
+    },
+    {
+        "id" : 2,
+        "title":"Karşınızdakinin Sizden Hoşlandığını Ele Veren Sinyaller",
+        "imageSource" : "love.jpg"
+    },
+    {
+        "id" : 3,
+        "title":"Sizi Özgüvenli Gösterecek Beden Dili İpuçları",
+        "imageSource" : "self-confidence.jpg"
+    }
+]
