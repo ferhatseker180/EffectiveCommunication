@@ -1,22 +1,54 @@
 [
     {
         "id" : 0,
-        "title":"Beden Dili: Sessiz İletişimin Gücü ve Etkileri",
-        "imageSource" : "facial-expressions.jpg"
+        "title":"Beden Dilinin Etkileyici Gücü: İnsanları Nasıl İkna Edebilir ve Yönlendirebilirsiniz?",
+        "imageSource" : "convince.jpg"
     },
     {
         "id" : 1,
-        "title":"Karşınızdaki Kişinin Sizden Şüphe Ettiğini Gösteren Gizli İşaretler",
-        "imageSource" : "doubt.jpg"
+        "title":"Yalanları Açığa Çıkaran Beden Dili Sinyalleri: Gerçekleri Yüzeyin Altında Nasıl Bulursunuz?",
+        "imageSource" : "exposed-lie.jpg"
     },
     {
         "id" : 2,
-        "title":"Karşınızdakinin Sizden Hoşlandığını Ele Veren Sinyaller",
-        "imageSource" : "love.jpg"
+        "title":"Hoşlanma Sinyalleri: Karşınızdaki Kişinin Size Duyduğu İlgi ve Beğeniyi Nasıl Anlarsınız?",
+        "imageSource" : "signal-of-love.jpg"
     },
     {
         "id" : 3,
-        "title":"Sizi Özgüvenli Gösterecek Beden Dili İpuçları",
-        "imageSource" : "self-confidence.jpg"
+        "title":"Özgüvenli Bir İzlenim Yaratın: Beden Diliyle Kendinizi Nasıl Güçlü ve Etkileyici Gösterirsiniz?",
+        "imageSource" : "showing-confidence.jpg"
+    },
+    {
+        "id" : 4,
+        "title":"Gülümsemenin Sırrı: Samimi ve Yüzeysel Gülümsemeler Arasındaki Farkı Nasıl Anlarsınız?",
+        "imageSource" : "warm-smile.jpg"
+    },
+    {
+        "id" : 5,
+        "title":"Şüphe ve Belirsizlik: Karşınızdaki Kişinin Size Karşı Şüphelerini Beden Dilinden Nasıl Okursunuz?",
+        "imageSource" : "doubt-body.jpg"
+    },
+    {
+        "id" : 6,
+        "title":"El ve Kol Hareketlerinin Derin Anlamı: Beden Diliyle Mesajınızı Nasıl Güçlendirebilirsiniz?",
+        "imageSource" : "hand-gestures.jpg"
+    },
+    {
+        "id" : 7,
+        "title":"Öfke ve Üzüntü: Yüz İfadelerinde Bu Güçlü Duyguları Nasıl Tanırsınız?",
+        "imageSource" : "fury-and-sad.jpg"
+    },
+    {
+        "id" : 8,
+        "title":"Sosyal Başarı İçin Beden Dili Stratejileri: Sosyal Ortamlarda Fark Yaratmanın Yolları",
+        "imageSource" : "social-success.jpg"
+    },
+    {
+        "id" : 9,
+        "title":"Yüz Kaslarındaki Duygular: Hangi Kas Hareketi Hangi Duyguyu En Güzel Şekilde Gösterir?",
+        "imageSource" : "face-muscle-move.jpg"
     }
+    
+    
 ]

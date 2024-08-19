@@ -6,22 +6,55 @@
     },
     {
         "id" : 1,
-        "title":"İlişkilerde Üçüncü Kişi Sorunsalı",
-        "imageSource" : "cheating.jpg"
+        "title":"Karşı Cinsin Sizden Hoşlandığını Gösteren İşaretler",
+        "imageSource" : "signal-of-love.jpg"
     },
     {
         "id" : 2,
+        "title":"Arkadaşlıktan Aşkı Anlamanın Yolları: İlk Temas ve Davranışlar Ne Anlama Geliyor?",
+        "imageSource" : "understand-of-love.jpg"
+    },
+    {
+        "id" : 3,
         "title":"Çiftler Arası İletişimde En Çok Karşılaşılan Sorunlar",
         "imageSource" : "relationship-problem.jpg"
     },
     {
-        "id" : 3,
+        "id" : 4,
+        "title":"İlişkilerde Üçüncü Kişi Sorunsalı",
+        "imageSource" : "cheating.jpg"
+    },
+    {
+        "id" : 5,
+        "title":"Sevgilinizin Size Olan Duygularını Beden Diliyle Anlamak: İlişkinizin Derinliklerini Keşfedin",
+        "imageSource" : "love-body-move.jpg"
+    },
+    {
+        "id" : 6,
+        "title":"Partnerinizin Yalan Söylediğini Nasıl Anlarsınız? Beden Diliyle Gizli Sinyaller",
+        "imageSource" : "partner-lie.jpg"
+    },
+   
+    {
+        "id" : 7,
         "title":"Uzun İlişkinin Sırları",
         "imageSource" : "long-relationship.jpg"
     },
+    
     {
-        "id" : 4,
-        "title":"Karşı Cinsin Sizden Hoşlandığını Gösteren İşaretler",
-        "imageSource" : "signal-of-love.jpg"
+        "id" : 8,
+        "title":"Kişisel Alan ve Sınırlar: İlişkinizde Saygıyı Koruma Tüyoları",
+        "imageSource" : "personel-area.jpg"
+    },
+    
+    {
+        "id" : 9,
+        "title":"Aldatıldığınızı Gösteren Gizli İşaretler!!",
+        "imageSource" : "cheating-signal.jpg"
+    },
+    {
+        "id" : 10,
+        "title":"İkili İlişkilerde Kriz Anlarını Yönetmek: Beden Diliyle Duygusal Tepkileri Nasıl Anlarsınız?",
+        "imageSource" : "crisis-relationship.jpg"
     }
 ]

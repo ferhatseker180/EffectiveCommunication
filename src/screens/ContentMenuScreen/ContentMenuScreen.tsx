@@ -1,56 +1,54 @@
-import { View, Text, FlatList } from 'react-native'
-import React from 'react'
-import ContentMenuCard from './ContentMenuComponents/ContentMenuCard'
-import data from '../../data/ContentMenuData/BodyLanguage.json';
+import { View, FlatList } from 'react-native';
+import React from 'react';
+import ContentMenuCard from './ContentMenuComponents/ContentMenuCard';
+import { contentMenuMap } from '../../utils/ContentMenuUtils/ContentMenuMapping';
 
-// Dinamik olarak JSON verisini yükleyin
-const getDataForItem = (menuName: string) => {
-    switch (menuName) {
-        case 'Beden Dili':
-            return require('../../data/ContentMenuData/BodyLanguage.json');
-        case 'Kadın Erkek İlişkisi':
-            return require('../../data/ContentMenuData/Relationship.json');
-        // Diğer menü başlıkları için de benzer şekilde case ekleyebilirsiniz
-        default:
-            console.warn(`Data for ${menuName} not found.`);
-            return [];
-    }
-};
+const ContentMenuScreen = ({ route, navigation }: any) => {
+  const { contentMenuItem } = route.params; // Gelen menü ismini al
 
-// Dinamik olmayan bir nesne ile image path'lerini eşleştirin
-const imageMap: { [key: string]: any } = {
-    "facial-expressions.jpg": require('../../images/ContentMenuImages/facial-expressions.jpg'),
-    "love.jpg": require('../../images/ContentMenuImages/love.jpg'),
-    "doubt.jpg": require('../../images/ContentMenuImages/doubt.jpg'),
-    "self-confidence.jpg" : require('../../images/ContentMenuImages/self-confidence.jpg')
-  };
+  // Uygun JSON verisini yükle
+  const menuContent = contentMenuMap[contentMenuItem];
 
-const ContentMenuScreen = ({route, navigation} : any) => {
-    const { contentMenuItem } = route.params; // Gelen menü ismini al
-    const data = getDataForItem(contentMenuItem); // Uygun JSON verisini yükle
+  if (!menuContent) {
+    console.error(`Menu content for "${contentMenuItem}" not found.`);
+    return null;
+  }
 
-    const renderItem = ({ item }: any) => {
-        const imageSource = imageMap[item.imageSource] || require('../../images/ContentMenuImages/anger.png');
-        
-        return (
-            <ContentMenuCard
-                title={item.title}
-                contentImageSource={imageSource} // Lokal image yolu
-                onPress={() => console.log('Press Button')}
-            />
-        );
-    };
+  // JSON verisindeki content kısmı alınır
+  const data = menuContent.data || [];
+  // Varsayılan görsel atanır
+  const defaultImage = menuContent.defaultImage || require('../../images/ContentMenuImages/BodyLanguageImages/anger.png');
+  // İçerik türüne göre doğru imageMap'i alıyoruz
+  const imageMap = menuContent.imageMap || {};
+
+  // Debug: imageMap içeriğini kontrol edin
+  console.log("ImageMap:", imageMap);
+
+  const renderItem = ({ item }: any) => {
+    // Debug: item.imageSource ve imageMap içeriğini kontrol edin
+    console.log("Item imageSource:", item.imageSource);
+    console.log("ImageMap inside renderItem:", imageMap);
+
+    const imageSource = imageMap[item.imageSource] || defaultImage;
 
     return (
-        <View>
-            <FlatList
-                data={data}
-                renderItem={renderItem}
-                keyExtractor={(item) => item.id.toString()}
-            />
-        </View>
+      <ContentMenuCard
+        title={item.title}
+        contentImageSource={imageSource} // Lokal image yolu
+        onPress={() => console.log('Press Button')}
+      />
     );
-}
+  };
 
+  return (
+    <View>
+      <FlatList
+        data={data}
+        renderItem={renderItem}
+        keyExtractor={(item) => item.id.toString()}
+      />
+    </View>
+  );
+};
 
-export default ContentMenuScreen
+export default ContentMenuScreen;

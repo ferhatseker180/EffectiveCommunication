@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 0,
+        "title":"Yalanın Sosyal ve Kişisel Etkileri: Yalan Söylemenin Sosyal İlişkiler Üzerindeki Etkileri ve Bu Durumlarla Baş Etmenin Yolları Nelerdir?",
+        "imageSource" : "effect-of-lie.jpg"
+    },
+    {
+        "id" : 1,
+        "title":"Göz Teması ve Yalanlar: Birinin Gerçekten Doğru Söyleyip Söylemediğini Nasıl Anlarsınız?",
+        "imageSource" : "eye-contact.jpg"
+    },
+    {
+        "id" : 2,
+        "title":"Konu Değiştirme ve Yalan: Birinin Gerçekleri Saklamaya Çalışırken Yaptığı Davranışsal Stratejiler",
+        "imageSource" : "change-topic.jpg"
+    },
+    {
+        "id" : 3,
+        "title":"Ses Tonu ve Yalan: Sesinizin Duygusal Durumu Nasıl Yansıttığını ve Yalanı Nasıl Anlayabileceğinizi Keşfedin",
+        "imageSource" : "voice-tone.jpg"
+    },
+    {
+        "id" : 4,
+        "title":"Yalan ve Stres: Birinin Stres Altında Yalan Söylediğini Gösteren Belirgin İşaretler",
+        "imageSource" : "signal-of-pressure.jpg"
+    },
+    {
+        "id" : 5,
+        "title":"Yalanı Tespit Etmek İçin Soru Sorma Stratejileri: Hangi Sorular Yalanları Ortaya Çıkarabilir?",
+        "imageSource" : "ask-questions.jpg"
+    },
+    {
+        "id" : 6,
+        "title":"Yalan Söyleyen Kişilere Karşı Doğru Yaklaşım",
+        "imageSource" : "true-perspective.jpg"
+    }
+]
