@@ -1,6 +1,7 @@
 # Project development process continues...
 
 <img src="https://raw.githubusercontent.com/ferhatseker180/EffectiveCommunication/refs/heads/master/src/project_images/main-menu.png?token=GHSAT0AAAAAAC25N6GIAPWXQKNB57PUVXSEZ3JQBJA"> 
+
 <img src="https://raw.githubusercontent.com/ferhatseker180/EffectiveCommunication/refs/heads/master/src/project_images/content.png?token=GHSAT0AAAAAAC25N6GJDED2ZSRSYZUSTYXEZ3JQC5Q"> 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
